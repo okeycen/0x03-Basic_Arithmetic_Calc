@@ -1,5 +1,5 @@
 function display(){
-    operation= prompt("Please type in the math operation you would like to perform: \n\n+ to add, - to subtract, * to multiply, / to divide, % for modulo");
+    operation= prompt("Please type in the math operation you would like to perform: \n\n+ to add, - to subtract, * to multiply, / to divide and % for modulo");
       
     if (operation==='+'){
         add()
