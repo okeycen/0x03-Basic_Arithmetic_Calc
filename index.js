@@ -33,7 +33,7 @@ function add(){
     a = prompt('first number');
     b = prompt('second number');
 
-    if(/\D/.test(a) || /\D/.test(b)){
+    if(/\D/.test(a) && /\D/.test(b)){
         alert("Invalid entry, only numbers are allowed")
         }
     
